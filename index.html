@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image slide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header class="bg-blue-500 h-[60px]">
+      <h1 class="text-center text-4xl text-white py-2">
+        Explore different images
+      </h1>
+    </header>
+    <div class="flex justify-center items-center h-[100vh] mt-[-30px]">
+      <img
+        id="image1"
+        class="rounded w-[950px] h-[400px]"
+        src="https://t3.ftcdn.net/jpg/05/69/30/42/360_F_569304262_RGVohUth9wyR5Msa3CoR4XFvMYE8VG1k.jpg"
+        alt=""
+      />
+    </div>
+
+    <div class="text-center mt-[-50px]">
+      <p id="text">0</p>
+      <br />
+      <button id="btn1" class="bg-blue-500 px-10 py-2 rounded">Next</button>
+      <button id="btn2" class="bg-blue-300 px-10 py-2 rounded">Prev</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
